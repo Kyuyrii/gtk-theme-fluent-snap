@@ -1,7 +1,7 @@
 name: gtk-theme-fluent
 build-base: core24
 base: bare
-version: '2025-06-24'
+version: '2025-06-28'
 platforms:
   all:
     build-on: [amd64]
@@ -59,6 +59,60 @@ slots:
         - $SNAP/share/gtk2/Fluent-red-Dark-compact
         - $SNAP/share/gtk2/Fluent-red-Light
         - $SNAP/share/gtk2/Fluent-red-Light-compact
+        - $SNAP/share/gtk2/Fluent-round
+        - $SNAP/share/gtk2/Fluent-round-compact
+        - $SNAP/share/gtk2/Fluent-round-Dark
+        - $SNAP/share/gtk2/Fluent-round-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-green
+        - $SNAP/share/gtk2/Fluent-round-green-compact
+        - $SNAP/share/gtk2/Fluent-round-green-Dark
+        - $SNAP/share/gtk2/Fluent-round-green-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-green-Light
+        - $SNAP/share/gtk2/Fluent-round-green-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-grey
+        - $SNAP/share/gtk2/Fluent-round-grey-compact
+        - $SNAP/share/gtk2/Fluent-round-grey-Dark
+        - $SNAP/share/gtk2/Fluent-round-grey-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-grey-Light
+        - $SNAP/share/gtk2/Fluent-round-grey-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-Light
+        - $SNAP/share/gtk2/Fluent-round-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-orange
+        - $SNAP/share/gtk2/Fluent-round-orange-compact
+        - $SNAP/share/gtk2/Fluent-round-orange-Dark
+        - $SNAP/share/gtk2/Fluent-round-orange-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-orange-Light
+        - $SNAP/share/gtk2/Fluent-round-orange-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-pink
+        - $SNAP/share/gtk2/Fluent-round-pink-compact
+        - $SNAP/share/gtk2/Fluent-round-pink-Dark
+        - $SNAP/share/gtk2/Fluent-round-pink-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-pink-Light
+        - $SNAP/share/gtk2/Fluent-round-pink-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-purple
+        - $SNAP/share/gtk2/Fluent-round-purple-compact
+        - $SNAP/share/gtk2/Fluent-round-purple-Dark
+        - $SNAP/share/gtk2/Fluent-round-purple-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-purple-Light
+        - $SNAP/share/gtk2/Fluent-round-purple-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-red
+        - $SNAP/share/gtk2/Fluent-round-red-compact
+        - $SNAP/share/gtk2/Fluent-round-red-Dark
+        - $SNAP/share/gtk2/Fluent-round-red-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-red-Light
+        - $SNAP/share/gtk2/Fluent-round-red-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-teal
+        - $SNAP/share/gtk2/Fluent-round-teal-compact
+        - $SNAP/share/gtk2/Fluent-round-teal-Dark
+        - $SNAP/share/gtk2/Fluent-round-teal-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-teal-Light
+        - $SNAP/share/gtk2/Fluent-round-teal-Light-compact
+        - $SNAP/share/gtk2/Fluent-round-yellow
+        - $SNAP/share/gtk2/Fluent-round-yellow-compact
+        - $SNAP/share/gtk2/Fluent-round-yellow-Dark
+        - $SNAP/share/gtk2/Fluent-round-yellow-Dark-compact
+        - $SNAP/share/gtk2/Fluent-round-yellow-Light
+        - $SNAP/share/gtk2/Fluent-round-yellow-Light-compact
         - $SNAP/share/gtk2/Fluent-teal
         - $SNAP/share/gtk2/Fluent-teal-compact
         - $SNAP/share/gtk2/Fluent-teal-Dark
@@ -117,6 +171,60 @@ slots:
         - $SNAP/share/themes/Fluent-red-Dark-compact
         - $SNAP/share/themes/Fluent-red-Light
         - $SNAP/share/themes/Fluent-red-Light-compact
+        - $SNAP/share/themes/Fluent-round
+        - $SNAP/share/themes/Fluent-round-compact
+        - $SNAP/share/themes/Fluent-round-Dark
+        - $SNAP/share/themes/Fluent-round-Dark-compact
+        - $SNAP/share/themes/Fluent-round-green
+        - $SNAP/share/themes/Fluent-round-green-compact
+        - $SNAP/share/themes/Fluent-round-green-Dark
+        - $SNAP/share/themes/Fluent-round-green-Dark-compact
+        - $SNAP/share/themes/Fluent-round-green-Light
+        - $SNAP/share/themes/Fluent-round-green-Light-compact
+        - $SNAP/share/themes/Fluent-round-grey
+        - $SNAP/share/themes/Fluent-round-grey-compact
+        - $SNAP/share/themes/Fluent-round-grey-Dark
+        - $SNAP/share/themes/Fluent-round-grey-Dark-compact
+        - $SNAP/share/themes/Fluent-round-grey-Light
+        - $SNAP/share/themes/Fluent-round-grey-Light-compact
+        - $SNAP/share/themes/Fluent-round-Light
+        - $SNAP/share/themes/Fluent-round-Light-compact
+        - $SNAP/share/themes/Fluent-round-orange
+        - $SNAP/share/themes/Fluent-round-orange-compact
+        - $SNAP/share/themes/Fluent-round-orange-Dark
+        - $SNAP/share/themes/Fluent-round-orange-Dark-compact
+        - $SNAP/share/themes/Fluent-round-orange-Light
+        - $SNAP/share/themes/Fluent-round-orange-Light-compact
+        - $SNAP/share/themes/Fluent-round-pink
+        - $SNAP/share/themes/Fluent-round-pink-compact
+        - $SNAP/share/themes/Fluent-round-pink-Dark
+        - $SNAP/share/themes/Fluent-round-pink-Dark-compact
+        - $SNAP/share/themes/Fluent-round-pink-Light
+        - $SNAP/share/themes/Fluent-round-pink-Light-compact
+        - $SNAP/share/themes/Fluent-round-purple
+        - $SNAP/share/themes/Fluent-round-purple-compact
+        - $SNAP/share/themes/Fluent-round-purple-Dark
+        - $SNAP/share/themes/Fluent-round-purple-Dark-compact
+        - $SNAP/share/themes/Fluent-round-purple-Light
+        - $SNAP/share/themes/Fluent-round-purple-Light-compact
+        - $SNAP/share/themes/Fluent-round-red
+        - $SNAP/share/themes/Fluent-round-red-compact
+        - $SNAP/share/themes/Fluent-round-red-Dark
+        - $SNAP/share/themes/Fluent-round-red-Dark-compact
+        - $SNAP/share/themes/Fluent-round-red-Light
+        - $SNAP/share/themes/Fluent-round-red-Light-compact
+        - $SNAP/share/themes/Fluent-round-teal
+        - $SNAP/share/themes/Fluent-round-teal-compact
+        - $SNAP/share/themes/Fluent-round-teal-Dark
+        - $SNAP/share/themes/Fluent-round-teal-Dark-compact
+        - $SNAP/share/themes/Fluent-round-teal-Light
+        - $SNAP/share/themes/Fluent-round-teal-Light-compact
+        - $SNAP/share/themes/Fluent-round-yellow
+        - $SNAP/share/themes/Fluent-round-yellow-compact
+        - $SNAP/share/themes/Fluent-round-yellow-Dark
+        - $SNAP/share/themes/Fluent-round-yellow-Dark-compact
+        - $SNAP/share/themes/Fluent-round-yellow-Light
+        - $SNAP/share/themes/Fluent-round-yellow-Light-compact
         - $SNAP/share/themes/Fluent-teal
         - $SNAP/share/themes/Fluent-teal-compact
         - $SNAP/share/themes/Fluent-teal-Dark
@@ -132,14 +240,14 @@ slots:
 parts:
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/gtk-theme-fluent-snap/releases/download/2025-06-24/gtk-theme-fluent-snap-files.deb
+    source: https://github.com/Kyuyrii/gtk-theme-fluent-snap/releases/download/2025-06-28/gtk-theme-fluent-snap-files.deb
     organize:
       usr/share/themes: share/gtk2
     prime:
       - share/gtk2/*/gtk-2.0
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/gtk-theme-fluent-snap/releases/download/2025-06-24/gtk-theme-fluent-snap-files.deb
+    source: https://github.com/Kyuyrii/gtk-theme-fluent-snap/releases/download/2025-06-28/gtk-theme-fluent-snap-files.deb
     organize:
       usr/share/themes: share/themes
     prime:
